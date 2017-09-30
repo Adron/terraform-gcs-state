@@ -1,3 +1,3 @@
-data "google_compute_network" "my-network" {
-  name = "default-us-west1"
+resource "google_compute_address" "default" {
+  name = "test-address"
 }

@@ -6,7 +6,7 @@ provider "google" {
 
 terraform {
   backend "gcs" {
-    bucket  = "blue-world-terraform-state"
+    bucket  = "blue-world-terraform-state-test"
     path    = "dev/terraform.tfstate"
     project = "thrashingcorecode"
   }
